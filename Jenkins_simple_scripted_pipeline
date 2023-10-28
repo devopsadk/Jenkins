@@ -1,0 +1,11 @@
+node {
+    stage('Build'){
+        // First stage
+        echo "Hello All"
+    }
+    stage('Test'){
+        //Here I am creating file1
+        sh 'touch file1'
+    }
+    }
+
