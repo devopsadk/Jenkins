@@ -1,0 +1,15 @@
+pipeline{
+    agent any
+    stages{
+        stage('firststage'){
+            steps { 
+               sh 'touch file1'
+            }
+        }
+            stage('secondstage'){
+            steps { 
+               sh 'touch file2'
+            }
+            }
+    }
+}
