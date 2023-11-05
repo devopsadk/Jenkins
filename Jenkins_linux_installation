@@ -32,3 +32,11 @@ sudo systemctl start jenkins
 
 Check Jenkin status
 sudo systemctl status jenkins
+
+
+
+---------------------------------------------------------------------------------------------
+
+Creating slave server
+1. Create EC2 ubuntu-slave2 ,redhat-slave1
+2. Install Java on the servers ubunt (sudo apt-get install openjdk-11-jdk) , redhat (yum install java-11)
